@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
+
+html{
+    font-size: 16px;
+}
+
+/* Redimensión de fuente utilizando rem */
+p{
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+h4{
+    font-size: 1.3rem;
+}
+
+h5{
+    font-size: 1.15rem;
+}
+
+h6{
+    font-size: 1.05rem;
+}
+/**************************/
+
+/* clases predefinidas */
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Diseño de columnas */
+.column-1{
+    width: 100%;
+    float: left;
+}
+
+.column-2{
+    width: 50%;
+    float: left;
+}
+
+.column-3{
+    width: 33.33%;
+    float: left;
+}
+
+.column-4{
+    width: 25%;
+    float: left;
+}
+
+.column-5{
+    width: 20%;
+    float: left;
+}
+
+.column-6{
+    width: 16.66%;
+    float: left;
+}
+
+.column-75{
+    width: 75%;
+    float: left;
+}
+
+/* Otras clases */
+
+.header{
+    background-image: url("../img/header\ negro.jpg");
+}
+
+.titulo{
+    font-family: 'Koulen', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.subtitulo{
+    font-family: 'Radio Canada', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.apartados{
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    padding-top: 7%;
+}
+
+.datos{
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.foto{
+    width: 25vh;
+    border-radius: 20%;
+    align-items: center;
+}
+
+.movalnet{
+    width: 60vh;
+    align-items: center;
+}
+
+.progreso{
+
+}
+
+#aspectos{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#footer{
+    color: white;
+    padding: 7%;
+    background-color: black;
+}
+
+.fuentefooter{
+    color: white;
+}
+
+.contacto{
+    width: 7%;
+}
+
+.gmail{
+    width: 5%;
+}
+
+.footerx{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+button.pdf {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+}
+
+#colorboton{
+    background-color: aqua;
+    border-color: black;
+    width: 15vw;
+    height: 7vh;
+    align-items: center;
+}
+
+button{
+    text-align: center;
+    align-items: center;
+}
+
+.descargar{
+    background-color: black;
+}
+
+.cv_inglés{
+    background-color: black;
+}
+
+
+/* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    /* column-2 pasará de tener 50% a 100% */
+    .column-2{
+        width: 100%;
+    }
+    /* column-3 pasará de tener 33.33% a 100% */
+    .column-3{
+        width: 100%;
+    }
+    /* column-4 pasará de tener 25% a 50% */
+    .column-4{
+        width: 50%;
+    }
+}
